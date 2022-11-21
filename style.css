@@ -1,0 +1,246 @@
+.body-starters{
+    background-image:url('images/starters%20background2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.body-home{
+    background-image:url('images/home-page.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    background-image: url('images/wood-portid.jpg');
+    background-attachment: fixed;
+    height:120px;
+    width:100%;
+    position:fixed;
+    background-size:100%;
+    margin:auto;
+    left:0px;
+    top:0px;
+    right:0px;
+    z-index:500;
+    
+}
+.header-details{
+    height:100px;
+    width:100%;
+    margin:auto;
+    text-align:center;
+}
+.header-details h1{
+    font-size:30px;
+    margin:auto;
+    padding:10px 0px 0px 10px;
+    color:darkgrey;
+    font-family: cursive;
+    font-size:70px;
+}
+/*=====HOME PAGE=====*/
+#home-page{
+    margin-top:120px;
+   
+}
+#home-page img{
+    display:block;
+    margin:auto;
+    padding:50px 10px 30px 10px;
+    width:500px;
+    height:500px;
+   
+}
+#home-page h1{
+    text-align: center;
+    color:darkgray;
+    font-family: cursive;
+}
+#home-page p{
+    
+    color:darkgrey;
+    font-size:20px;
+    display:inline-block;
+    padding:5px;
+}
+.meal-price{
+    color:darkgrey;
+    font-family: cursive;
+   
+    
+
+    
+    
+}
+/*=====HOME PAGE MENU=====*/
+.home-page-menu{
+    padding:30px 5px 5px 0px;
+    overflow:hidden;
+    text-decoration: none;
+}
+
+.home-page-menu-details{
+    text-decoration: none;
+    font-size:30px;
+    border:3px solid darkgrey;
+    color:darkgrey;
+    text-align:center;
+    display:block;
+    margin:auto;
+    margin-bottom: 30px;
+    width:70%;
+    font-family:cursive;
+   
+}
+.home-page-menu-details h3{
+    padding:0px;
+    margin:0;
+     font-weight:500;
+    
+}
+.home-page-menu-details p{
+    display:block;
+    padding:0;
+    font-size:10px;
+    
+}
+.home-page-menu-details i{
+    color:white;
+    height:100%;
+    float:right;
+    
+}
+.stuffedmushroom{
+    margin-left:40px;
+    margin-right:40px;
+}
+.extras h2{
+    color:darkgrey;
+    font-size:30px;
+    font-family:cursive;
+    font-weight:500;
+   text-align: center;
+    margin: auto;
+}
+.extras{
+    color:darkgrey;
+    font-family:cursive;
+    margin:auto;
+   
+    padding:5px;
+}
+.extras li{
+    padding:5px;
+    margin-bottom:4px;
+    border:2px solid darkgrey;
+    width:150px;
+   margin:auto;
+}
+ul{
+    padding:5px;
+   
+}
+#form{
+    padding:5px;
+    width:60%;
+    margin:auto;
+    text-align:center;
+    
+}
+#form a{
+    text-decoration: none;
+    border:2px solid darkgrey;
+    text-align:center;
+}
+#form h3{
+    color:darkgrey;
+    text-align: center;
+}
+.table-row{
+    padding:5px;
+    margin:auto;
+
+}
+input{
+    width:100%;
+}
+textarea{
+    width:100%;
+}
+table-row {
+  margin: auto;
+}
+.button{
+    margin-top:5px;
+    padding:3px;
+    color:#ffffff;
+}
+.extras p{
+    display:inline-block;
+    margin-top:-40px;
+}
+#home-link{
+    text-decoration:none;
+    text-align: center;
+    font-weight:500;
+    border:2px solid darkgrey;
+    color:darkgrey;
+    font-family:cursive;
+}
+#home-link a{
+    color:darkgrey;
+    text-decoration: none;
+}
+#submit h3{
+    color:darkgrey;
+}
+}
+@media only screen and (min-width:400px){
+    .header-details h1{
+    font-size:40px;
+    margin:auto;
+    padding:10px 0px 0px 10px;
+    color:darkgrey;
+    font-family: cursive;
+    
+}
+  #home-page img{
+    display:block;
+    margin:auto;
+    padding:50px 10px 30px 10px;
+    width:300px;
+    height:300px; 
+    }
+}
+    @media only screen and (min-width:1000px){
+        
+       #header{
+    background-image: url('images/headerbackground.jpg');
+    background-attachment: fixed;
+    height:120px;
+    width:100%;
+    position:fixed;
+    background-size:100%;
+    margin:auto;
+    left:0px;
+    top:0px;
+    right:0px;
+    z-index:500;
+    
+} 
+         #home-page img{
+    display:block;
+    margin:auto;
+    padding:50px 10px 30px 10px;
+    width:500px;
+    height:500px; 
+    }
+   .header-details h1{
+    font-size:60px;
+    margin:auto;
+    padding:10px 0px 0px 10px;
+    color:darkgrey;
+    font-family: cursive;
+        }
+    }
